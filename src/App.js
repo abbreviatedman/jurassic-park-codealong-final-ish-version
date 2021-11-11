@@ -28,7 +28,6 @@ class App extends React.Component {
 
     // good:
     this.setState({
-      dinos: [currentSpecies].concat(dinos),
       dinos: [currentSpecies, ...dinos],
     })
   }
